@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layihe 3</title>
+    <link rel="stylesheet" href="layihe3.css">
+</head>
+
+<body>
+
+    <div class="head">
+        <div style="padding:  10px;">
+            <img src="Asset 1@3x 1.png" alt="">
+        </div>
+
+        <div class="options">
+            <button class="btn">ОПЦИИ</button>
+            <ul id="list" style="color: #959BA4;">
+                <li style="color: black;">БАНК</li>
+                <li>БИЗНЕС</li>
+                <li>ИНВЕСТИЦИИ</li>
+                <li>СТРАХОВАНИЕ</li>
+                <li>МОБАЙЛ</li>
+                <li>ПУТЕШЕСТВИЯ</li>
+                <li>РАЗВЛЕЧЕНИЯ</li>
+            </ul>
+        </div>
+
+        <div style="padding:  10px;">
+            <button  type="button" onclick="javascript:window.close()" id="cixis">ВОЙТИ</button>
+        </div>
+    </div>
+
+
+    <div class="converter" style=" width:50%; margin:auto; margin-top: 100px;">
+        <h1 style="font-weight: 700; font-size: 36px;">Конвертер валют онлайн</h1>
+
+        <div class="main">
+
+            <div class="left" style="width: 250px;">
+                <p style=" font-weight: 400; font-size: 12px; color: #9F9F9F;">У меня есть </p>
+                <ul id="valyutalist1">
+                    <li id="rub1" class="currency-item active">RUB</li>
+                    <li id="usd1" class="currency-item">USD</li>
+                    <li id="eur1" class="currency-item">EUR</li>
+                    <li id="gbp1" class="currency-item">GBP</li>
+                </ul>
+                <div
+                    style="height: 105px; border: 1px solid #E5E5E5; border-radius: 3px; margin-top: 20px; padding: 0 10px 0 10px;">
+                    <input id="input1" type="number">
+                    <p id="p1" style="font-weight: 400;font-size: 12px; color: #C6C6C6; margin-top: 35px;">Valyuta seçin
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div class="right" style="width: 250px;">
+                <p style=" font-weight: 400; font-size: 12px; color: #9F9F9F;">Хочу приобрести</p>
+                <ul id="valyutalist2">
+                    <li id="rub2" class="currency-item">RUB</li>
+                    <li id="usd2" class="currency-item active">USD</li>
+                    <li id="eur2" class="currency-item">EUR</li>
+                    <li id="gbp2" class="currency-item">GBP</li>
+                </ul>
+                <div
+                    style="height: 105px; border: 1px solid #E5E5E5; border-radius: 3px; margin-top: 20px; padding: 0 10px 0 10px;">
+                    <input id="input2" type="number">
+                    <p id="p2" style="font-weight: 400;font-size: 12px; color: #C6C6C6; margin-top: 35px;">Valyuta seçin
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="layihe3.js"></script>
+</body>
+
+</html>
